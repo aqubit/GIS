@@ -1,0 +1,31 @@
+Imports System.Reflection
+
+Public Class Toolbox
+    Private Shared Function binarySearch(Of T)( _
+        ByRef sorted As List(Of T), _
+        ByRef criterio As String, _
+        ByRef first As Integer, _
+        ByRef upto As Integer, _
+        ByRef key As Integer _
+    ) As Integer
+        Dim propertyInfo As PropertyInfo
+        Dim type As Type = GetType(T)
+        Dim mid As Integer
+        Dim value As Integer
+        Dim array() As T
+        array = sorted.ToArray()
+        propertyInfo = type.GetProperty(criterio)
+        While first < upto
+            value = propertyInfo.GetValue(array(mid), Nothing)
+            mid = (first + upto) / 2
+            If key < value Then
+                upto = mid      'Repeat search in bottom half.
+            ElseIf key > value Then
+                first = mid + 1 'Repeat search in top half.
+            Else
+                Return mid      'Found it. return position
+            End If
+        End While
+        Return -(first + 1) 'Failed to find key
+    End Function
+End Class

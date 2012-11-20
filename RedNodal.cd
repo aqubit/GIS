@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="RedNodal.Colegio" Collapsed="true">
+    <Position X="2" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\Colegio.vb</FileName>
+      <HashCode>IBAvMasRMkWIRQCURBBAAobuGTEQLoGEMWACGZABgs8=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="RedNodal.Equipamiento" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="3.18" />
+        <Point X="2.75" Y="3.555" />
+        <Point X="2.812" Y="3.555" />
+        <Point X="2.812" Y="4" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="RedNodal.Asociacion">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\Asociacion.vb</FileName>
+      <HashCode>BAIBCAAAAAAgAQCEAAAQgAAAEAAIAAAICAAAggAEgAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.AIE">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\AIE.vb</FileName>
+      <HashCode>BAAAAAAAAAAgAAAEgAwAAAAAIAAAAAAICJAAggAAkAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.IAsociable">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\IAsociable.vb</FileName>
+      <HashCode>TAEBAoAQsYAgAQSUgABAiCAQMIBAASAKCAACogKg4AQ=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RedNodal.Equipamiento">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\Equipamiento.vb</FileName>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.ConfigRedNodal" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>svc\ConfigRedNodal.vb</FileName>
+      <HashCode>gEYAAAAECAABAARBgsBABAAAAAAAMCAgEIAAAkAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.Relacion" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\Relacion.vb</FileName>
+      <HashCode>AQAABAAAAAAAAAAAAAAAgAAAAgABAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.Nodo" Collapsed="true">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\Nodo.vb</FileName>
+      <HashCode>BAAAAAAAAAAgAACEAAAAAAAAAAAAAAAACAAAgAAAgAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="RedNodal.Estandar" Collapsed="true">
+    <Position X="1.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\Estandar.vb</FileName>
+      <HashCode>IIQAAkkACIrAAAAYwAYCCAAAEGAQXAgEgERAiCAACCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.EstandarParametro">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\EstandarParametro.vb</FileName>
+      <HashCode>AAAAgAAAAAAAIAAAAAAAAQAUAAAAAQAAiAACAABAAQE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.RedNodalAlg" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>negocios\RedNodalAlg.vb</FileName>
+      <HashCode>AAAKAAAAAAAAAAAAABhAAQBCAAIAAAghAYAACABEEgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.FileDataProvider">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>svc\FileDataProvider.vb</FileName>
+      <HashCode>AAAAQAAAAIAAAAAAgAAABAAAAAEBAAIAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RedNodal.GeoAdapter" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>svc\GeoAdapter.vb</FileName>
+      <HashCode>KoYIECEglII0cBQhBghBAAgyhQQAIARCCEQAbsREKhA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedNodal.Reporte">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>svc\Reporte.vb</FileName>
+      <HashCode>AAAAAAAAAAAwAAAAAAAEQAAAgAAAAAgAAQAAAAAEQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RedNodal.DataProvider">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>svc\DataProvider.vb</FileName>
+      <HashCode>AAAAAAAAAEAAAAAAAAAABAAAAAEBAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>
